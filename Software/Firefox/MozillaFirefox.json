@@ -1,0 +1,20 @@
+{
+	"Name": "Mozilla Firefox",
+	"Source": "https://www.mozilla.org/",
+	"Get": {
+		"Uri": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+		"DownloadUri": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/"
+	},
+	"Install": {
+		"Setup": "Firefox*.exe",
+		"Physical": {
+			"Arguments": "/S /TaskbarShortcut=false /DesktopShortcut=false /MaintenanceService=true /PreventRebootRequired=true",
+			"PostInstall": [
+			]
+		},
+		"Virtual": {
+			"Arguments": "/S /TaskbarShortcut=false /DesktopShortcut=false /MaintenanceService=false /PreventRebootRequired=true",
+			"PostInstall": []
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"Name": "Git for Windows",
+	"Source": "https://gitforwindows.org/",
+	"Get": {
+		"Uri": "https://api.github.com/repos/git-for-windows/git/releases/latest",
+		"ContentType": "application/json; charset=utf-8",
+		"MatchVersion": "(?<=v)\\d+\\.\\d+\\.\\d+(?=\\.windows)"
+	},
+	"Install": {
+		"Setup": "Git*.exe",
+		"Physical": {
+			"Arguments": "/VERYSILENT /NORESTART /NOCANCEL /SP- /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS /COMPONENTS=\"icons,ext\\reg\\shellhere,assoc,assoc_sh\"",
+			"PostInstall": []
+		},
+		"Virtual": {
+			"Arguments": "/VERYSILENT /NORESTART /NOCANCEL /SP- /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS /COMPONENTS=\"icons,ext\\reg\\shellhere,assoc,assoc_sh\"",
+			"PostInstall": []
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"Name": "Microsoft Visual Studio Code",
+	"Source": "https://code.visualstudio.com",
+	"Get": {
+		"Uri": "https://update.code.visualstudio.com/api/update"
+	},
+	"Install": {
+		"Setup": "VSCode*.exe",
+		"Physical": {
+			"Arguments": "/silent /mergetasks='!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath'",
+			"PostInstall": []
+		},
+		"Virtual": {
+			"Arguments": "",
+			"PostInstall": []
+		}
+	}
+}

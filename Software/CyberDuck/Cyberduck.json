@@ -1,0 +1,23 @@
+{
+	"Name": "Cyberduck",
+	"Source": "https://cyberduck.io/",
+	"Get": {
+		"Uri": {
+			"Release" : "https://version.cyberduck.io/windows/changelog.rss",
+			"Beta" : "https://version.cyberduck.io/windows/beta/changelog.rss",
+			"Snapshot" : "https://version.cyberduck.io/windows/nightly/changelog.rss"
+		},
+		"ContentType": "text/xml"
+	},
+	"Install": {
+		"Setup": "Cyberduck*.exe",
+		"Physical": {
+			"Arguments": "/S",
+			"PostInstall": []
+		},
+		"Virtual": {
+			"Arguments": "/S",
+			"PostInstall": []
+		}
+	}
+}
