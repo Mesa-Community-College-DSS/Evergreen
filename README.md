@@ -12,9 +12,9 @@ Evergreen Repository
         -Atom
         -CyberDuck
         -FileZilla
-        -Firefox
+        -Firefox (In Production)
         -Git_for_Windows
-        -Google_Chrome
+        -Google_Chrome (In Production)
         -Notepad++
         -OpenJDK
         -Oracle_Java_8
