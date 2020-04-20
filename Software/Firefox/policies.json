@@ -1,0 +1,43 @@
+{
+  "policies": {
+
+   "DisableAppUpdate": true,
+	 "DontCheckDefaultBrowser": true,
+   "DisableTelemetry": true,
+   "BlockAboutConfig": true,
+   "BlockAboutAddons": false,
+   "BlockAboutProfiles": true,
+   "DisableSetDesktopBackground": true,
+   "DisableMasterPasswordCreation": true,
+   "DisableDeveloperTools": true,
+   "DisableFeedbackCommands": true,
+   "DisableFirefoxAccounts": true,
+   "DisableFormHistory": true,
+   "DisableProfileRefresh": true,
+   "DownloadDirectory": "${home}/Downloads",
+   "FlashPlugin": {
+      "Default": true,
+      "Locked": true
+    },
+   "Homepage": {
+      "URL": "https://mesacc.edu/",
+      "Locked": true,
+      "Additional": ["https://learn.maricopa.edu/login/ldap",
+                     "https://www.mesacc.edu/library"],
+      "StartPage": "homepage"
+    },
+    "OfferToSaveLogins": true,
+    "OverrideFirstRunPage":"",
+    "OverridePostUpdatePage": "",
+    "SanitizeOnShutdown": {
+      "Cache": true,
+      "Cookies": true,
+      "Downloads": false,
+      "FormData": true,
+      "History": true
+    },
+    "InstallAddonsPermission": {
+        "Default": true
+    }
+  }
+}
