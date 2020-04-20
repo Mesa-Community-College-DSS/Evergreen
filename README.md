@@ -13,7 +13,7 @@ Evergreen Repository
         -CyberDuck
         -FileZilla
         -Firefox (In Production)
-        -Git_for_Windows
+        -Git_for_Windows (Production Ready)
         -Google_Chrome (In Production)
         -Notepad++
         -OpenJDK
