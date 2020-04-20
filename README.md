@@ -19,8 +19,6 @@ What does this mean? An evergreen application in our environment will check the 
         - [ ] VirtualBox   
         - [ ] VisualStudioCode
         - [ ] VLC
-    
-##    Templates:
 
 ##    [Direct Software Download Links](https://docs.google.com/spreadsheets/d/1Wi71MDKG791DUCwrL6yZXdWlHUinezNUfq74loH5_TQ/edit?usp=sharing)
 
