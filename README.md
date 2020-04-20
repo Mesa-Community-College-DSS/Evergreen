@@ -8,9 +8,9 @@ What does this mean? An evergreen application in our environment will check the 
 - [ ] Atom
 - [ ] CyberDuck
 - [ ] FileZilla
-- [x] Firefox (In Production)
-- [ ] Git_for_Windows (Production Ready)
-- [ ] Google_Chrome (In Production)
+- [x] Firefox **In Production**
+- [ ] Git_for_Windows **Production Ready**
+- [x] Google_Chrome **In Production**
 - [ ] Notepad++
 - [ ] OpenJDK
 - [ ] Oracle_Java_8
